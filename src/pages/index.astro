@@ -1,5 +1,5 @@
 ---
-
+import Navbar from '../components/Navbar.astro'
 ---
 
 <html lang="es">
@@ -10,33 +10,59 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Sidney Silva</title>
 	</head>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			height: 100vh;
-			background-color: #193721;
-			color: #ffffff;
-		}
-		a {
-			color: rgb(145, 255, 0);
-			text-decoration: none;
-		}
-		h1 {
-			font-size: 2rem;
-			margin-bottom: 1rem;
-		}
-		p {
-			font-size: 1rem;
-		}
-	</style>
-	<body>
-		<h1>En desarrollo...</h1>
-		<p>Visita <a href="https://github.com/sxdny">sxdny</a> en Github. </p>
+	<body class="bg-black text-white flex flex-col justify-center items-center">
+		<Navbar />
+		<div class="w-full flex flex-col items-center">
+			<section class="max-w-screen-md w-full p-4 flex flex-col gap-4">
+				<h1 class="font-bold text-2xl">About Me</h1>
+				<div class="text-neutral-300 flex flex-col gap-3">
+					<p class="">
+						Hello, I'm Sidney Silva a web developer from Spain.
+					</p>
+					<p>
+						I'm currently studying at IES Joan Ramis i Ramis in Menorca a Higher Degree in Web Application Development. I also have a degree in Computer Systems and Networks.
+					</p>
+				</div>
+				<div class="flex flex-col justify-end items-end gap-1">
+					<img class="rounded-lg h-1/2" src="mahon-apple-maps.png" alt="Mahon in Menorca, Spain">
+					<p class="italic text-neutral-400 text-sm">Maó in Menorca, Spain</p>
+				</div>
+			</section>
+
+			<section class="max-w-screen-md w-full p-4 flex flex-col gap-4">
+				<h1 class="font-bold text-2xl">Projects</h1>
+				<div class="text-neutral-300 flex flex-col gap-3">
+					<p>
+						Here are some of my projects. You can find more on my <a href="#">Github</a>.
+					</p>
+					<p class="text-sm text-neutral-400">
+						I will add projects soon...
+					</p>
+					<!-- <ul class="list-disc list-inside">
+						<li>
+							<a href="">Two best friends at the same time</a>
+						</li>
+					</ul> -->
+				</div>
+			</section>
+
+			<section class="max-w-screen-md w-full p-4 flex flex-col gap-4">
+				<h1 class="font-bold text-2xl">Contact</h1>
+				<div class="text-neutral-300 flex flex-col gap-3">
+					<p>
+						You can contact me by email at <a class="underline underline-offset-4 text-white" href="mailto:sidneysbo@icloud.com">sidneysbo@icloud.com</a>.
+					</p>
+					<p>
+						Here you also have my social networks:
+					</p>
+					<ul class="list-disc list-inside">
+						<li class="underline underline-offset-4 text-white">
+							<a href="https://twitter.com">Twitter</a>
+						</li>
+						<li class="underline underline-offset-4 text-white">
+							<a href="https://instagram.com">Instagram</a>
+						</li>
+					</ul>
+		</div>
 	</body>
 </html>
