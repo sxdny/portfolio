@@ -1,0 +1,9 @@
+[
+ {
+  "name": "HotelPHP",
+  "description": "A hotel management system built with Laravel + Inertia.js",
+  "technologies": ["Inertia.js", "Tailwind CSS", "shadcn/ui", "MySQL"],
+  "image": "hotelphp.png",
+  "url": "https://github.com/sxdny/hotelphp-inertia"
+ }
+]
