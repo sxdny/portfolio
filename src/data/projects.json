@@ -3,14 +3,18 @@
   "name": "HotelPHP",
   "description": "A hotel management system built with Laravel + Inertia.js.",
   "technologies": ["Inertia.js", "Tailwind CSS", "shadcn/ui", "MySQL", "S3"],
-  "image": "hotelphp.png",
   "url": "https://github.com/sxdny/hotelphp-inertia"
  },
  {
   "name": "WeSplit",
   "description": "A simple bill splitting app built with SwiftUI.",
   "technologies": ["Swift", "SwiftUI"],
-  "image": "wesplit.png",
   "url" : "https://github.com/sxdny/WeSplit"
+ },
+ {
+  "name": "Tazk",
+  "description": "An iOS application for managing tasks.",
+  "technologies": ["Swift", "SwiftUI", "SwiftData"],
+  "url": "https://github.com/sxdny/Tazk"
  }
 ]
