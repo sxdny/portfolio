@@ -1,9 +1,9 @@
 [
  {
-  "name": "HotelPHP",
+  "name": "Perk",
   "description": "A hotel management system built with Laravel + Inertia.js.",
-  "technologies": ["Inertia.js", "Tailwind CSS", "shadcn/ui", "MySQL", "S3"],
-  "url": "https://github.com/sxdny/hotelphp-inertia"
+  "technologies": ["Inertia.js", "Tailwind CSS", "shadcn/ui", "MySQL", "S3", "AWS"],
+  "url": "https://pest-main-hgwd7o.laravel.cloud/"
  },
  {
   "name": "WeSplit",
