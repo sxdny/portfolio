@@ -16,5 +16,11 @@
   "description": "An iOS application for managing tasks.",
   "technologies": ["Swift", "SwiftUI", "SwiftData"],
   "url": "https://github.com/sxdny/Tazk"
+ },
+ {
+  "name": "Angular Todos",
+  "description": "A simple todo app using Signals, Services and Reactive Forms.",
+  "technologies": ["Angular", "Tailwind CSS"],
+  "url": "https://angular-todos-4ax7iqvwt-sidney-silvas-projects.vercel.app/"
  }
 ]
